@@ -8,3 +8,4 @@ Command line arguments:
 | --new | -n | Make a pane with the specified pane name. |
 | --attach | -a | Attach to a running pane. |
 | --kill | -k | Kill a running pane. |
+| --list | -ls | List running panes. |
