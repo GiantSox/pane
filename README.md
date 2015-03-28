@@ -1,7 +1,7 @@
 # pane
 An easy to use wrapper for tmux, designed to make it easier for screen users.
 
-Command line arguments:
+Command line arguments (in this version):
 
 | Long | Short | Description |
 | ------------- | ------------- | ------------- |
