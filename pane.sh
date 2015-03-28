@@ -17,7 +17,7 @@ fi
 
 # kill a running screen
 if [ $1 = "-k" ]; then
-	tmux kill-sesion -t $2
+	tmux kill-session -t $2
 elif [ $1 = "--kill" ]; then
-	tmux kill-sesion -t $2
+	tmux kill-session -t $2
 fi
