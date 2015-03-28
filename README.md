@@ -3,6 +3,7 @@ An easy to use wrapper for tmux, designed to make it easier for screen users.
 
 Command line arguments:
 
-| Short  | Long | Description  |
+| Long | Short | Description |
 | ------------- | ------------- | ------------- |
-| -n  | --new  | Make a pane with the specified pane name.
+| --new | -n | Make a pane with the specified pane name. |
+| --attach | -a | Attach to a running pane. |
