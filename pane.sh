@@ -14,3 +14,10 @@ if [ $1 = "-a" ]; then
 elif [ $1 = "--attach" ]; then
 	tmux attach -t $2
 fi
+
+# kill a running screen
+if [ $1 = "-k" ]; then
+	tmux kill-sesion -t $2
+elif [ $1 = "--kill" ]; then
+	tmux kill-sesion -t $2
+fi
