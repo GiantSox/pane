@@ -21,3 +21,10 @@ if [ $1 = "-k" ]; then
 elif [ $1 = "--kill" ]; then
 	tmux kill-session -t $2
 fi
+
+# list running sessions
+if [ $1 = "-ls" ]; then
+	tmux list-sessions
+elif [ $1 = "--list" ]; then
+	tmux list-sessions
+fi
